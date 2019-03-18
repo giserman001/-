@@ -63,7 +63,11 @@
     3.基于TCP协议
      > HTTP协议目的是规定客户端和服务端数据传输的格式和数据交互行为，并不负责数据传输的细节。底层是基于TCP实现的。现在使用的版本当中是默认持久连接的，也就是多次HTTP请求使用一个TCP连接。
 ## HTTP报文
+
 1.请求报文
+
 ![http请求报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/request.png "请求报文")
+
 1.响应报文
+
 ![http响应报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/auth2.0.png "响应报文")
