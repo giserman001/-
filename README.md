@@ -46,5 +46,6 @@
 + 客户端模式（client credentials）
 
 
-======
+---
+
 > 注意： 关于更多授权模式的理解可参考阮一峰老师[博客](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)来理解
