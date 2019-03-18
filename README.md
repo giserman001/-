@@ -62,3 +62,8 @@
      > 在客户端请求网页时多数情况下并不是一次请求就能成功的，服务端首先是响应HTML页面，然后浏览器收到响应之后发现HTML页面还引用了其他的资源，例如，CSS，JS文件，图片等等，还会自动发送HTTP请求这些需要的资源。现在的HTTP版本支持管道机制，可以同时请求和响应多个请求，大大提高了效率。
     3.基于TCP协议
      > HTTP协议目的是规定客户端和服务端数据传输的格式和数据交互行为，并不负责数据传输的细节。底层是基于TCP实现的。现在使用的版本当中是默认持久连接的，也就是多次HTTP请求使用一个TCP连接。
+## HTTP报文
+1.请求报文
+![http请求报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/request.png "请求报文")
+1.响应报文
+![http响应报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/auth2.0.png "响应报文")
