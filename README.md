@@ -70,4 +70,4 @@
 
 2.响应报文
 
-![http响应报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/auth2.0.png "响应报文")
+![http响应报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/response.png "响应报文")
