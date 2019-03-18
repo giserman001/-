@@ -1,4 +1,5 @@
-# 理解Oauth2.0
+# 一、Oauth2.0
+## 理解Oauth2.0
 
 > 为了理解OAuth的适用场合，让我举一个假设的例子。
 
@@ -18,12 +19,12 @@
     5. 只要有一个第三方应用程序被破解，就会导致用户密码泄漏，以及所有被密码保护的数据泄漏。
 > OAuth就是为了解决上面这些问题而诞生的。
 
-# OAuth的思路
+## OAuth的思路
 > OAuth在"客户端"与"服务提供商"之间，设置了一个授权层（authorization layer）。"客户端"不能直接登录"服务提供商"，只能登录授权层，以此将用户与客户端区分开来。"客户端"登录授权层所用的令牌（token），与用户的密码不同。用户可以在登录的时候，指定授权层令牌的权限范围和有效期。
 
 > "客户端"登录授权层以后，"服务提供商"根据令牌的权限范围和有效期，向"客户端"开放用户储存的资料。
 
-# 运行流程
+## 运行流程
 
 ![Oauth2.0流程图](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/auth2.0.png "Oauth2.0流程图")
 
@@ -39,7 +40,7 @@
 
     （F）资源服务器确认令牌无误，同意向客户端开放资源。
 
-# 客户端的授权模式
+## 客户端的授权模式
 + 授权码模式（authorization code）
 + 简化模式（implicit）
 + 密码模式（resource owner password credentials）
@@ -51,7 +52,9 @@
 > 注意： 关于更多授权模式的理解可参考阮一峰老师[博客](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)来理解
 
 
-# HTTP协议的特点
+
+# 二、http
+## HTTP协议的特点
 
     1.HTTP协议是无状态的
      > 就是说每次HTTP请求都是独立的，任何两个请求之间没有什么必然的联系。但是在实际应用当中并不是完全这样的，引入了Cookie和Session机制来关联请求。
