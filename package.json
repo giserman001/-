@@ -1,0 +1,19 @@
+{
+  "name": "front-end-knowledge--point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giserman001/front-end-knowledge--point.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giserman001/front-end-knowledge--point/issues"
+  },
+  "homepage": "https://github.com/giserman001/front-end-knowledge--point#readme"
+}
