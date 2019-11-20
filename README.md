@@ -71,3 +71,5 @@
 2.响应报文
 
 ![http响应报文](https://github.com/giserman001/front-end-knowledge--point/blob/master/static/img/response.png "响应报文")
+
+## 手写aplly call bind实现以及对this理解。参照案例： src/demo1/index.js
